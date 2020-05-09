@@ -33,4 +33,4 @@
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
 
-> (c) 2020 [Star Inc.](https://starinc.xyz) with [Kater Group](https://kater.me).
+> (c) 2020 [Star Inc.](https://starinc.xyz) with [Kater Team](https://kater.me).
