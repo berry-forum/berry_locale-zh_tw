@@ -20,7 +20,7 @@ datitisev-dashboard:
 
       graph:
         users: 會員
-        discussions: 貼文
+        discussions: 討論
         posts: 回覆
 
       updates:
