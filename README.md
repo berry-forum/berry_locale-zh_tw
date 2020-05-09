@@ -6,7 +6,7 @@
 
 ## 正體中文 語言包
 
-以 [MIT LICENSE](LICENSE) 發行程式原始碼
+以 [MIT License](LICENSE) 發行程式原始碼
 
     The MIT License (MIT)
 
