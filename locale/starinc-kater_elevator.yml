@@ -1,0 +1,11 @@
+starinc-kater_elevator :
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+    sub_controls:
+      elevator_button: "文章電梯"
+      level_input: "輸入樓層"
