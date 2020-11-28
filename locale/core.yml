@@ -318,7 +318,7 @@ core:
     # These translations are used in the Log In modal dialog.
     log_in:
       forgot_password_link: "忘記密碼？"
-      invalid_login_message: 登入信息有誤
+      invalid_login_message: 登入資訊有誤
       password_placeholder: => core.ref.password
       remember_me_label: 記住我
       sign_up_text: "還沒有帳戶？ <a>立即註冊</a>"
@@ -419,7 +419,7 @@ core:
     user_controls:
       button: 操作
       delete_button: => core.ref.delete
-      delete_confirmation: "確定要刪除此帳號？用戶的貼文將不會被刪除。"
+      delete_confirmation: "確定要刪除此帳號？使用者的貼文將不會被刪除。"
       delete_error_message: "刪除帳號 <i>{username} ({email})</i> 失敗"
       delete_success_message: "帳號 <i>{username} ({email})</i> 已刪除"
       edit_button: => core.ref.edit

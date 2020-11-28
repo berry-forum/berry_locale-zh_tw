@@ -20,7 +20,7 @@ fof-stopforumspam:
 
   forum:
     message:
-      spam: 你的信息被標記為垃圾。
+      spam: 你的訊息被標記為垃圾。
 
   api:
     error:

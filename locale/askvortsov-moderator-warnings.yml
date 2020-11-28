@@ -4,7 +4,7 @@
 askvortsov-moderator-warnings:
   admin:
     permissions:
-      manage_warnings: 創建及移除管理員警告
+      manage_warnings: 建立及移除管理員警告
       view_warnings: 查看管理員警告
       delete_warnings: 永久刪除管理員警告
   forum:

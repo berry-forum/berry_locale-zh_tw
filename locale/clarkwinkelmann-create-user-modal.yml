@@ -4,9 +4,9 @@
 clarkwinkelmann-create-user-modal:
   admin:
     permissions:
-      view: 查看創建用戶模態對話方塊
+      view: 查看建立使用者模態對話方塊
   forum:
-    link: 創建新用戶
+    link: 建立新使用者
     modal:
-      title: 創建用戶
-      submit: 創建用戶
+      title: 建立使用者
+      submit: 建立使用者

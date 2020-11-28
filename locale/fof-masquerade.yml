@@ -28,7 +28,7 @@ fof-masquerade:
       view-profile: 查看 masquerade 資料卡
     menu:
       description: >
-        配置用戶資料卡欄位
+        配置使用者資料卡欄位
     fields:
       title: 欄位
       add: 新增欄位 {field}

@@ -51,7 +51,7 @@ fof-byobu:
       pd_label: 有人將我加入了私密貼文
       pd_reply_label: 有人回覆了我參與的私密貼文
       pd_reply_text: "{username} 回覆了你參與的私密貼文"
-      pd_text: "{username} 創建私密貼文並邀請了你"
+      pd_text: "{username} 建立私密貼文並邀請了你"
       pd_user_left_label: 我參與的私密貼文有人離開
       pd_user_left_text: "{username} 離開來私密貼文"
       pd_added_text: "{username} 將您加入私密貼文"
@@ -62,8 +62,8 @@ fof-byobu:
 
   admin:
     permission:
-      create_private_discussions_with_users: 創建私密貼文並可新增參與者
-      create_private_discussions_with_groups: 創建私密貼文並可新增群組
+      create_private_discussions_with_users: 建立私密貼文並可新增參與者
+      create_private_discussions_with_groups: 建立私密貼文並可新增群組
       create_private_discussions_with_blocking_users: 允許新增已阻止私密貼文的會員
       edit_user_recipients: 編輯參與私密討論的參與者
       edit_group_recipients: 編輯參與私密討論的群組
@@ -76,7 +76,7 @@ fof-byobu:
 
   notifications:
     private_discussion_created:
-      title: "[私密貼文] 有人創建私密貼文並邀請你參與"
+      title: "[私密貼文] 有人建立私密貼文並邀請你參與"
     private_discussion_replied:
       title: "[私密貼文] 有人回覆了私密貼文"
     recipient_removed:
