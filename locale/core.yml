@@ -43,7 +43,7 @@ core:
     basics:
       all_discussions_label: => core.ref.all_discussions
       default_language_heading: 預設語言
-      forum_description_heading: 論壇說明 
+      forum_description_heading: 論壇說明
       forum_description_text: 使用一到兩句話簡短描述論壇。這將會添加於 Meta 標籤中，並顯示於搜尋引擎結果中。
       forum_title_heading: 論壇名稱
       home_page_heading: 論壇首頁
@@ -417,7 +417,7 @@ core:
 
     # These translations are found on the user profile page (admin function).
     user_controls:
-      button: 操作 
+      button: 操作
       delete_button: => core.ref.delete
       delete_confirmation: "確定要刪除此帳號？用戶的貼文將不會被刪除。"
       delete_error_message: "刪除帳號 <i>{username} ({email})</i> 失敗"
@@ -553,7 +553,7 @@ core:
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
   ##
-  
+
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
     all_discussions: 全部貼文

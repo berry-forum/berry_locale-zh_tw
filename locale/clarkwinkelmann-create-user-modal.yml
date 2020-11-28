@@ -2,11 +2,11 @@
 # Sat, 25 Jan 2020 21:04:02 +0800
 
 clarkwinkelmann-create-user-modal:
-    admin:
-        permissions:
-            view: 查看創建用戶模態對話方塊
-    forum:
-        link: 創建新用戶
-        modal:
-            title: 創建用戶
-            submit: 創建用戶
+  admin:
+    permissions:
+      view: 查看創建用戶模態對話方塊
+  forum:
+    link: 創建新用戶
+    modal:
+      title: 創建用戶
+      submit: 創建用戶

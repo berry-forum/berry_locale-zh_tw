@@ -4,6 +4,6 @@
 the-turk-stargazing-theme:
   admin:
     settings:
-      title:                 Stargazing 主題設定
-      relocateSidebar:       側邊欄置於右側
+      title: Stargazing 主題設定
+      relocateSidebar: 側邊欄置於右側
       enableStarsBackground: 啟用星空背景

@@ -5,7 +5,7 @@ core:
   forum:
     index_sort:
       hot_button: 趨勢
-      
+
 fof-gamification:
   forum:
     votes: 點讚

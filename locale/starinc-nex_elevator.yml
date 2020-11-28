@@ -1,4 +1,4 @@
-starinc-nex_elevator :
+starinc-nex_elevator:
   forum:
     sub_controls:
       elevator_button: "文章電梯"

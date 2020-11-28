@@ -42,7 +42,7 @@ the-turk-diff:
     createdInfo: "{username} 於 {ago} 新增"
     revisionInfo: "已編輯 {revisionCount} 次, 最新版顯示於頂部"
     noDiff: 沒有差異。
-    
+
     differences:
       # one of the following will be used in place of {old} or {new} in ‘sentence’ key
       originalContent: => the-turk-diff.ref.originalContent

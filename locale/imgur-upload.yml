@@ -4,7 +4,7 @@
 imgur-upload:
   admin:
     settings:
-        title: Imgur 上傳設定
+      title: Imgur 上傳設定
   forum:
     upload: 點擊或貼上以上傳
     loading: 正在上傳...

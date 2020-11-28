@@ -2,10 +2,10 @@
 # Wed, 06 May 2020 11:20:35 +0800
 
 fof-impersonate:
-    admin:
-        permissions:
-            login: 以其他身分登入
+  admin:
+    permissions:
+      login: 以其他身分登入
 
-    forum:
-        user_controls:
-            impersonate_button: 偽裝身分
+  forum:
+    user_controls:
+      impersonate_button: 偽裝身分

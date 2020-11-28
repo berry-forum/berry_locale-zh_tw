@@ -5,7 +5,7 @@ reflar-cookie-consent:
   admin:
     settings:
       title: Cookie 使用許可
-      
+
       configuration_title: 設定選項
       consentText: 內容文本
       buttonText: 「取消」按鈕文本
