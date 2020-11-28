@@ -22,7 +22,7 @@
         "flarum-extension": {
             "title": "Nex 正體中文語言包",
             "icon": {
-                "image": "icon.svg",
+                "image": "nex.png",
                 "backgroundColor": "#fff",
                 "backgroundSize": "cover",
                 "backgroundPosition": "center"
