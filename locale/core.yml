@@ -585,18 +585,18 @@ core:
     remove: 移除
     previous_page: 上一頁
     rename: 重命名
-    reply: 回覆                                 # Referenced by starinc-kater_mentions.yml
+    reply: 回覆                                 # Referenced by starinc-nex_mentions.yml
     reset_your_password: 重設密碼
     restore: 還原
     save_changes: 儲存更改                   # Referenced by flarum-tags.yml
     settings: 設定
     sign_up: 註冊
-    some_others: "{count} 人|{count} 人"  # Referenced by flarum-likes.yml, starinc-kater_mentions.yml
+    some_others: "{count} 人|{count} 人"  # Referenced by flarum-likes.yml, starinc-nex_mentions.yml
     start_a_discussion: 新增貼文
     username: 會員
     users: 會員
     write_a_reply: 撰寫回覆...
-    you: 你                                     # Referenced by flarum-likes.yml, starinc-kater_mentions.yml
+    you: 你                                     # Referenced by flarum-likes.yml, starinc-nex_mentions.yml
 
   # Translations in this namespace are used to translate default group names.
   group:

@@ -1,0 +1,5 @@
+starinc-nex_elevator :
+  forum:
+    sub_controls:
+      elevator_button: "文章電梯"
+      level_input: "輸入樓層"
