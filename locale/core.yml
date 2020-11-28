@@ -142,7 +142,7 @@ core:
       dashboard_button: 論壇概覽
       dashboard_text: 論壇資料綜覽
       email_button: => core.ref.email
-      email_text: "配置論壇郵箱設定。"
+      email_text: "配置論壇電子郵件設定。"
       extensions_button: 延伸套件
       extensions_text: 為你的論壇新增額外功能
       permissions_button: 權限設定
@@ -281,10 +281,10 @@ core:
     forgot_password:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
-      email_sent_message: 已將包含密碼重設連結的郵件發送至該郵箱，若未收到請檢查垃圾箱。
-      not_found_message: 沒有使用此郵箱位址註冊的會員。
+      email_sent_message: 已將包含密碼重設連結的郵件發送至該電子郵件，若未收到請檢查垃圾箱。
+      not_found_message: 沒有使用此電子郵件位址註冊的會員。
       submit_button: 重設密碼
-      text: 請鍵入郵箱位址，我們將發送密碼重設連結至該郵箱。
+      text: 請鍵入電子郵件位址，我們將發送密碼重設連結至該電子郵件。
       title: 忘記密碼
 
     # These translations are used in the header and session dropdown menu.
@@ -324,7 +324,7 @@ core:
       sign_up_text: "還沒有帳戶？ <a>立即註冊</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
-      username_or_email_placeholder: 會員名稱或郵箱
+      username_or_email_placeholder: 會員名稱或電子郵件
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
@@ -517,7 +517,7 @@ core:
       body: |
         你好，{username}！
 
-        此郵箱位址被用於註冊 {forum}，若確定是你本人註冊的，請點擊下面的連結即可驗證你的帳戶：
+        此電子郵件位址被用於註冊 {forum}，若確定是你本人註冊的，請點擊下面的連結即可驗證你的帳戶：
 
         {url}
 
@@ -526,11 +526,11 @@ core:
 
     # These translations are used in emails sent when users change their email address.
     confirm_email:
-      subject: 郵箱位址驗證
+      subject: 電子郵件位址驗證
       body: |
         你好，{username}!
 
-        你在 {forum} 的郵箱位址被更改為此郵箱，若確定是你本人進行的更改，請點擊下面的連結即可完成郵箱驗證：
+        你在 {forum} 的電子郵件位址被更改為此電子郵件，若確定是你本人進行的更改，請點擊下面的連結即可完成電子郵件驗證：
 
         {url}
 
@@ -557,7 +557,7 @@ core:
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
     all_discussions: 全部貼文
-    change_email: 更改郵箱
+    change_email: 更改電子郵件
     change_password: 更改密碼
     color: 顏色
     confirm_password: 確認密碼
@@ -570,7 +570,7 @@ core:
     delete_forever: 永久刪除
     discussions: 討論
     edit: 編輯
-    email: 郵箱
+    email: 電子郵件
     icon_label: 圖示
     icon_text: "鍵入任意 <a>FontAwesome</a> 圖示類名，<em>需要包含</em>前綴 <code>fas fa-</code>"
     load_more: 載入更多
