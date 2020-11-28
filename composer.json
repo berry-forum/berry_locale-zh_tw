@@ -1,5 +1,5 @@
 {
-    "name": "starinc/kater_zhtw",
+    "name": "starinc/nex_zhtw",
     "description": "Traditional Language pack for Kater.",
     "keywords": [
         "flarum",
@@ -20,7 +20,7 @@
     },
     "extra": {
         "flarum-extension": {
-            "title": "卡特Kater 正體中文語言包",
+            "title": "Nex 正體中文語言包",
             "icon": {
                 "image": "icon.svg",
                 "backgroundColor": "#fff",
