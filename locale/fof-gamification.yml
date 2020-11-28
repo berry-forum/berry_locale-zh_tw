@@ -39,7 +39,7 @@ fof-gamification:
         blocked:
           placeholder: CDK2020, Ralkage, AngelAvila
           title: 忽略的使用者
-          help: 這些使用者不會在排名頁面上顯示。 使用者名應以逗號分隔，後跟空格。
+          help: 這些使用者不會在排名頁面上顯示。 使用者名稱應以逗號分隔，後跟空格。
         title: 排名頁面
         enable: 啟用自定義圖片
         custom_image_1: 冠軍圖片
