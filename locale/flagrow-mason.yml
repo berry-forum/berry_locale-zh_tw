@@ -30,7 +30,7 @@ flagrow-mason:
       show-user-answers: 顯示 ({count}) 條不建議的答案
     menu:
       description: >
-        配置自定義帖文欄位
+        配置自定義貼文欄位
     fields:
       add: 新增欄位 {field}
       edit: 編輯欄位 {field}
@@ -45,7 +45,7 @@ flagrow-mason:
       max_answers_count: 最大答案數
       show_when_empty: 顯示空欄位
       show_when_empty-help:
-        不論欄位是否為空均在帖文中顯示
+        不論欄位是否為空均在貼文中顯示
       validation: 校驗使用者輸入
       user_values_allowed: 允許使用者輸入的內容
       user_values_allowed-help: >
@@ -66,11 +66,11 @@ flagrow-mason:
     messages:
       delete-answer-confirmation: >
         你確定要刪除答案「{content}」？
-        這將從所有使用它的帖文中移除，如果你想要保留現有答案請停用答案建議。
+        這將從所有使用它的貼文中移除，如果你想要保留現有答案請停用答案建議。
         刪除答案？
       delete-field-confirmation: >
         你確定要刪除欄位「{name}」？
-        這將從所有使用它的帖文中移除
+        這將從所有使用它的貼文中移除
         刪除欄位？
     settings:
       fields-section-title: 自定義欄位標題
@@ -82,7 +82,7 @@ flagrow-mason:
       labels-as-placeholders: 在表單中顯示標籤作為佔位
       labels-as-placeholders-help: >
         欄位將使用較少的縱向空間，小圖示將不再顯示。請注意，這可能會影響可用性，尤其是在編輯現有欄位時。
-      fields-in-hero: 欄位作為帖文橫幅展示，而不是首帖
+      fields-in-hero: 欄位作為貼文橫幅展示，而不是第一個貼文
       hide-empty-fields-section: 當所有欄位都為空且不可見時，隱藏標題及控制項
       hide-empty-fields-section-help: >
         預設為始終顯示，啟用此選項後，當所有欄位都為空時，「編輯欄位」按鈕僅在「回覆」下拉選單中可用

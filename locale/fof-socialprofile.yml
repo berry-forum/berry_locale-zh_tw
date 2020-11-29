@@ -6,9 +6,9 @@ fof-socialprofile:
     edit:
       edit: 編輯
       add: 新增
-      headtitle: 编辑按钮
-      title: 标题
-      url: 连结
-      submit: 储存
-      delete: 删除
-      deletetitle: 删除按钮
+      headtitle: 編輯按鈕
+      title: 標題
+      url: 網址
+      submit: 儲存
+      delete: 刪除
+      deletetitle: 刪除按鈕

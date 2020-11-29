@@ -4,13 +4,13 @@
 fof-follow-tags:
   forum:
     settings:
-      notify_new_discussion_label: 有人中我關注的節點發帖
-      notify_new_post_label: 有人在我關注的節點回覆
+      notify_new_discussion_label: 有人在我追蹤的節點發表討論
+      notify_new_post_label: 有人在我追蹤的節點回覆
 
 
     index:
-      follow_tag_button: 關注
-      unfollow_tag_button: 不關注
+      follow_tag_button: 追蹤
+      unfollow_tag_button: 不追蹤
 
 
     sub_controls:
@@ -23,7 +23,7 @@ fof-follow-tags:
       ignoring_text: 從不提醒
       lurking_button: => fof-follow-tags.ref.lurking
       lurking_text: 有新貼文或新回覆時提醒
-      not_following_button: 不關注
+      not_following_button: 不追蹤
       not_following_text: "僅當提及我時提醒"
       notify_alert_tooltip: 有新貼文或新回覆時推送論壇內提醒
       notify_email_tooltip: 有新貼文或新回覆時發送郵件提醒
@@ -37,8 +37,8 @@ fof-follow-tags:
     newPostInTag: "[節點 | 新回覆] 標題"
 
   ref:
-    follow: 關注
-    following: 已關注
+    follow: 追蹤
+    following: 已追蹤
     hiding: 已隱藏
     ignoring: 已忽略
     lurking: 圍觀中
