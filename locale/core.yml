@@ -314,6 +314,8 @@ core:
       oldest_button: 最舊貼文
       relevance_button: 關聯推薦
       top_button: 最熱貼文
+      popular_button: 受歡迎
+      unpopular_button: 被冷落
 
     # These translations are used in the Log In modal dialog.
     log_in:
