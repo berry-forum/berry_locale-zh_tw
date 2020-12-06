@@ -257,7 +257,7 @@ core:
 
     # These translations are used in the discussion list.
     discussion_list:
-      empty_text: "道生一，一生二，二生三，三生萬物"
+      empty_text: "喵喵喵，這裡沒有東西呦 (=^・ｪ・^=)"
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: 標記為已讀
       replied_text: "{username} 回覆於 {ago}"
