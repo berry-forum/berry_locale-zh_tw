@@ -7,7 +7,7 @@ michaelbelgium-discussion-views:
     discussion_controls:
       resetviews_button: 重新累計
     viewlist:
-      title: 剛剛路過的貓貓們
+      title: 腳印 ＼(=^‥^)/’`
   admin:
     permissions:
       reset_views_label: 重新累計腳印
