@@ -1,0 +1,17 @@
+sycho-profile-cover:
+  admin:
+    settings: 個人檔案封面 設定
+    thumbnails: 建立縮圖
+    max_size: 個人檔案封面的最大檔案大小（以KB為單位）
+    permission:
+      set_cover: 設定個人檔案封面
+  forum:
+    cover: 個人檔案封面
+    edit_cover: 編輯個人檔案封面
+    notice: "最大檔案大小：{size}"
+    added:
+      success: 個人檔案封面已更新。
+      error: 無法上傳封面。
+    removed:
+      success: 移除個人檔案封面。
+      error: 無法移除個人檔案封面，請稍後再試。
