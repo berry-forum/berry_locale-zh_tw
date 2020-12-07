@@ -146,7 +146,7 @@ core:
       extensions_button: 延伸套件
       extensions_text: 為你的論壇新增額外功能
       permissions_button: 權限設定
-      permissions_text: 設定會員訪問及操作權限
+      permissions_text: 設定使用者訪問及操作權限
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
@@ -158,7 +158,7 @@ core:
       delete_posts_forever_label: 永久刪除回覆
       delete_posts_label: 刪除回覆
       edit_posts_label: 編輯回覆
-      edit_users_label: 編輯會員
+      edit_users_label: 編輯使用者
       global_heading: 全局
       moderate_heading: 管理
       new_group_button: 新增群組
@@ -173,7 +173,7 @@ core:
       view_hidden_groups_label: 查看隱藏群組
       view_last_seen_at_label: 查看最後活動時間
       view_post_ips_label: 查看 IP 地址
-      view_user_list_label: 查看會員列表
+      view_user_list_label: 查看使用者列表
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
@@ -265,7 +265,7 @@ core:
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
-      activate_button: 驗證會員
+      activate_button: 驗證使用者
       email_heading: => core.ref.email
       email_label: => core.ref.email
       groups_heading: 群組
@@ -273,7 +273,7 @@ core:
       password_label: => core.ref.password
       set_password_label: 設定新密碼
       submit_button: => core.ref.save_changes
-      title: 編輯會員
+      title: 編輯使用者
       username_heading: => core.ref.username
       username_label: => core.ref.username
 
@@ -282,7 +282,7 @@ core:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
       email_sent_message: 已將包含密碼重設連結的郵件發送至該電子郵件，若未收到請檢查垃圾箱。
-      not_found_message: 沒有使用此電子郵件位址註冊的會員。
+      not_found_message: 沒有使用此電子郵件位址註冊的使用者。
       submit_button: 重設密碼
       text: 請鍵入電子郵件位址，我們將發送密碼重設連結至該電子郵件。
       title: 忘記密碼
@@ -326,7 +326,7 @@ core:
       sign_up_text: "還沒有帳戶？ <a>立即註冊</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
-      username_or_email_placeholder: 會員名稱或電子郵件
+      username_or_email_placeholder: 使用者名稱或電子郵件
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
@@ -405,8 +405,8 @@ core:
     # These translations are used in the user profile page and profile popup.
     user:
       avatar_remove_button: => core.ref.remove
-      avatar_upload_button: 上傳頭像
-      avatar_upload_tooltip: 上傳新頭像
+      avatar_upload_button: 上傳頭貼
+      avatar_upload_tooltip: 上傳新頭貼
       discussions_link: => core.ref.discussions
       in_discussion_text: "於 {discussion}"
       joined_date_text: "加入於 {ago}"
@@ -508,7 +508,7 @@ core:
 
   # Translations in this namespace are used in messages output by the API.
   api:
-    invalid_username_message: "會員名稱僅能包含字母、數字及橫線"
+    invalid_username_message: "使用者名稱僅能包含字母、數字及橫線"
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
@@ -595,8 +595,8 @@ core:
     sign_up: 註冊
     some_others: "{count} 人|{count} 人"  # Referenced by flarum-likes.yml, starinc-nex_mentions.yml
     start_a_discussion: 新增貼文
-    username: 會員
-    users: 會員
+    username: 使用者名稱
+    users: 使用者
     write_a_reply: 撰寫回覆...
     you: 你                                     # Referenced by flarum-likes.yml, starinc-nex_mentions.yml
 
@@ -606,7 +606,7 @@ core:
     admins: 管理員
     guest: 訪客
     guests: 訪客
-    member: 註冊會員
-    members: 註冊會員
+    member: 註冊使用者
+    members: 註冊使用者
     mod: 版主
     mods: 版主

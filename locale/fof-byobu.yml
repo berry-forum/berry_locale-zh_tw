@@ -64,7 +64,7 @@ fof-byobu:
     permission:
       create_private_discussions_with_users: 建立私密貼文並可新增參與者
       create_private_discussions_with_groups: 建立私密貼文並可新增群組
-      create_private_discussions_with_blocking_users: 允許新增已阻止私密貼文的會員
+      create_private_discussions_with_blocking_users: 允許新增已阻止私密貼文的使用者
       edit_user_recipients: 編輯參與私密討論的參與者
       edit_group_recipients: 編輯參與私密討論的群組
       make_private_into_public: 轉換私密貼文為公開貼文

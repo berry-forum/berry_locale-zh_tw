@@ -4,13 +4,13 @@
 kilowhat-mailing:
   admin:
     permissions:
-      mail_individual: 向單獨會員傳送郵件
-      mail_all: 向全部會員群組會員傳送郵件
+      mail_individual: 向單獨使用者傳送郵件
+      mail_all: 向全部使用者群組使用者傳送郵件
 
   forum:
     links:
-      mail_individual: 向這個會員傳送郵件
-      mail_all: 向全部會員傳送郵件
+      mail_individual: 向這個使用者傳送郵件
+      mail_all: 向全部使用者傳送郵件
     modal_mail:
       title_text: 撰寫郵件
       recipients_label: 收件人

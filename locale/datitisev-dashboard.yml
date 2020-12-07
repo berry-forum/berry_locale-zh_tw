@@ -19,7 +19,7 @@ datitisev-dashboard:
         december: 十二月
 
       graph:
-        users: 會員
+        users: 使用者
         discussions: 討論
         posts: 回覆
 

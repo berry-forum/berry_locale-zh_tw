@@ -25,11 +25,11 @@ reflar-webhooks:
       deleted: "已刪除回覆於 `{1}`"
 
     user:
-      registered: 已新增會員
+      registered: 已新增使用者
       renamed:
-        title: "已更改會員名為 `{1}`"
-        description: "新會員名: {1}"
-      deleted: "已刪除會員 `{1}`"
+        title: "已更改使用者名為 `{1}`"
+        description: "新使用者名: {1}"
+      deleted: "已刪除使用者 `{1}`"
 
   adapters:
     errors:
@@ -86,7 +86,7 @@ reflar-webhooks:
             deleted: => reflar-webhooks.ref.deleted
 
           user:
-            title: Flarum 會員
+            title: Flarum 使用者
 
             registered: 已註冊
             renamed: => reflar-webhooks.ref.renamed

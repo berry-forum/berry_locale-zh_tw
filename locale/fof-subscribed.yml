@@ -5,7 +5,7 @@ fof-subscribed:
   forum:
     settings:
       defaults_label: 預設啟用設定「{setting}」
-      forced_label: 強制對全部會員啟用「{setting}」
+      forced_label: 強制對全部使用者啟用「{setting}」
       notify_discussion_created_label: 有新貼文
       notify_post_unapproved_label: 發佈新貼需要審核
       notify_user_created_label: 有新人加入

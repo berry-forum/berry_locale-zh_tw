@@ -34,21 +34,21 @@ fof-terms:
       url: 連結
       url-help: 可以閱讀服務條款的頁面連結，點擊後在新頁面開啟。
       update-message: 更新訊息
-      update-message-help: 向未接受最新條款的會員顯示的訊息。
+      update-message-help: 向未接受最新條款的使用者顯示的訊息。
       terms-updated-at: 更新於
       terms-updated-at-placeholder: YYYY-MM-DD (hh:mm:ss)
       terms-updated-at-help: >
         服務條款最後更新日期。
-        設定此值將要求已接受條款的會員再次接受條款。
-        必須為過去的時間（否則會員將無法在日期之後接受並跳過對話框）。
+        設定此值將要求已接受條款的使用者再次接受條款。
+        必須為過去的時間（否則使用者將無法在日期之後接受並跳過對話框）。
       export-url: 匯出連結
       export-url-help: >
-        具有權限「匯出全部條款資料」的會員可以訪問以下連結以下載接受條款的會員列表。
+        具有權限「匯出全部條款資料」的使用者可以訪問以下連結以下載接受條款的使用者列表。
         你可以在 <a>延伸套件 wiki</a> 上找到更多關於此選項的詳細資訊。
     permissions:
-      see-user-policies-state: 查看會員服務條款狀態
+      see-user-policies-state: 查看使用者服務條款狀態
       postpone-policies-accept: 允許推遲接受新服務條款
-      export-policies: 匯出全部會員及服務條款資訊
+      export-policies: 匯出全部使用者及服務條款資訊
 
   forum:
     signup:
@@ -64,7 +64,7 @@ fof-terms:
       close: 你現在可以關閉此對話框
 
     state-modal:
-      title: 會員 {username} 服務條款接受狀態
+      title: 使用者 {username} 服務條款接受狀態
       accepted-at: 接受於 {date}
       not-accepted: 不接受
 

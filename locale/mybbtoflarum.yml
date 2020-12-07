@@ -12,7 +12,7 @@ mybbtoflarum:
       form:
         general:
           title: 一般設定
-          migrateAvatars: 遷移頭像
+          migrateAvatars: 遷移頭貼
           migrateSoftThreads: 遷移軟刪除貼文
           migrateSoftPosts: 遷移軟刪除回覆
         mybb:

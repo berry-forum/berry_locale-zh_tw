@@ -6,12 +6,12 @@ fof-user-directory:
     search:
       users_heading: '在全部使用者中搜尋「{query}」'
     page:
-      nav: 會員名錄
+      nav: 使用者名錄
       sort:
         relevance: 相關度
         default: 預設
-        username_az: 會員名 (a-z)
-        username_za: 會員名 (z-a)
+        username_az: 使用者名 (a-z)
+        username_za: 使用者名 (z-a)
         newest: 最新
         oldest: 最老
         seen_recent: 最近上線
@@ -22,7 +22,7 @@ fof-user-directory:
         least_discussions: 最少貼文
   admin:
     permissions:
-      view_user_directory: 檢視會員名錄
+      view_user_directory: 檢視使用者名錄
     settings:
-      title: 會員名錄設定
-      link: 新增連結至首頁以便於會員查看
+      title: 使用者名錄設定
+      link: 新增連結至首頁以便於使用者查看

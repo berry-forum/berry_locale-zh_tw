@@ -11,7 +11,7 @@ migratetoflarum-vbulletin-redirects:
         這些值已在遷移期間設定，可能不需要任何修改！
       field:
         discussionIncrement: 貼文 (討論串) ID 增量
-        userIncrement: 會員 ID 增量
+        userIncrement: 使用者 ID 增量
         tagIncrement: 節點 (論壇) ID 增量
         redirectStatus: 跳轉類型
 

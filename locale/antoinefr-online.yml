@@ -3,7 +3,7 @@
 
 antoinefr-online:
   forum:
-    title: 線上會員
+    title: 線上使用者
     andmore: "還有 {more} 人 ..."
   admin:
     settings:
