@@ -37,4 +37,4 @@ flarum-lock:
 
     # These translations are used in the Settings page.
     settings:
-      notify_discussion_locked_label: 你的貼文被鎖定
+      notify_discussion_locked_label: 您的貼文被鎖定

@@ -15,8 +15,8 @@ starinc-nex_mentions:
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       others_text: => core.ref.some_others
-      post_mentioned_text: "{username} 回覆了你的貼文"  # Can be pluralized to agree with the number of users!
-      user_mentioned_text: "{username} 提及了你"
+      post_mentioned_text: "{username} 回覆了您的貼文"  # Can be pluralized to agree with the number of users!
+      user_mentioned_text: "{username} 提及了您"
 
     # These translations are displayed beneath individual posts.
     post:
@@ -29,8 +29,8 @@ starinc-nex_mentions:
 
     # These translations are used in the Settings page.
     settings:
-      notify_post_mentioned_label: 有人回覆了你
-      notify_user_mentioned_label: 有人提及了你
+      notify_post_mentioned_label: 有人回覆了您
+      notify_user_mentioned_label: 有人提及了您
 
     # These translations are used in the user profile page and profile popup.
     user:

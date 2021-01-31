@@ -65,11 +65,11 @@ flagrow-mason:
       new-answer-placeholder: 一些文字
     messages:
       delete-answer-confirmation: >
-        你確定要刪除答案「{content}」？
-        這將從所有使用它的貼文中移除，如果你想要保留現有答案請停用答案建議。
+        您確定要刪除答案「{content}」？
+        這將從所有使用它的貼文中移除，如果您想要保留現有答案請停用答案建議。
         刪除答案？
       delete-field-confirmation: >
-        你確定要刪除欄位「{name}」？
+        您確定要刪除欄位「{name}」？
         這將從所有使用它的貼文中移除
         刪除欄位？
     settings:

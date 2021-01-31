@@ -32,7 +32,7 @@ fof-byobu:
         update_recipients: 更新私密貼文「{title}」的參與者
         add_recipients: 新增參與者到私密貼文
       help:
-        add_recipients: 私密貼文僅對受邀者可見，除你之外需要至少一位參與者。
+        add_recipients: 私密貼文僅對受邀者可見，除您之外需要至少一位參與者。
         update_recipients: 私密貼文僅對受邀者可見。
     post:
       recipients_modified:
@@ -50,8 +50,8 @@ fof-byobu:
     notifications:
       pd_label: 有人將我加入了私密貼文
       pd_reply_label: 有人回覆了我參與的私密貼文
-      pd_reply_text: "{username} 回覆了你參與的私密貼文"
-      pd_text: "{username} 建立私密貼文並邀請了你"
+      pd_reply_text: "{username} 回覆了您參與的私密貼文"
+      pd_text: "{username} 建立私密貼文並邀請了您"
       pd_user_left_label: 我參與的私密貼文有人離開
       pd_user_left_text: "{username} 離開來私密貼文"
       pd_added_text: "{username} 將您加入私密貼文"
@@ -76,7 +76,7 @@ fof-byobu:
 
   notifications:
     private_discussion_created:
-      title: "[私密貼文] 有人建立私密貼文並邀請你參與"
+      title: "[私密貼文] 有人建立私密貼文並邀請您參與"
     private_discussion_replied:
       title: "[私密貼文] 有人回覆了私密貼文"
     recipient_removed:

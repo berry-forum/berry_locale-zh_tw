@@ -41,18 +41,18 @@ reflar-webhooks:
       url_invalid: 所選服務的 URL 無效。
 
     nav:
-      desc: 為你的論壇設定客製化 webhook。
+      desc: 為您的論壇設定客製化 webhook。
     settings:
       title: Webhooks
 
       help:
         disabled: 這個 webhook 因沒有啟用任何 event 而已停用。
-        general: 於此你可以新增、編輯、移除 webhook。
+        general: 於此您可以新增、編輯、移除 webhook。
         url: Webhook 執行端點。
 
       modal:
         title: Webhook 設定
-        description: 於此你可以更改 webhook 調用的 event。
+        description: 於此您可以更改 webhook 調用的 event。
 
       services:
         discord: Discord

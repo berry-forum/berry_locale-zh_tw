@@ -27,7 +27,7 @@ flarum-subscriptions:
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      new_post_text: "{username} 回覆了你追蹤的貼文"
+      new_post_text: "{username} 回覆了您追蹤的貼文"
 
     # These translations are used in the Settings page.
     settings:

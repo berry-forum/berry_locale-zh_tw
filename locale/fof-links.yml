@@ -13,7 +13,7 @@ fof-links:
     # These strings are used in the Edit Link modal dialog.
     edit_link:
       delete_link_button: 移除連結
-      delete_link_confirmation: "你確定想要移除這個連結？"
+      delete_link_confirmation: "您確定想要移除這個連結？"
       internal_link: "這是 Flarum 連結 嗎？"
       open_newtab: "在新分頁開啟"
       submit_button: => core.ref.save_changes

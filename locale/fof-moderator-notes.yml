@@ -9,7 +9,7 @@ fof-moderator-notes:
   forum:
     moderatorNotes:
       add_button: 新增備註
-      confirmation_message: 備註已儲存，你可能需要重新載入頁面才能看到。
+      confirmation_message: 備註已儲存，您可能需要重新載入頁面才能看到。
       create-heading: 新增管理員備註
       dismiss_button: 完成
       input_heading: 為 <strong>{username}</strong> 新增備註

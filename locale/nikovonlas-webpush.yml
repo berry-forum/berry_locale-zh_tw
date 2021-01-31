@@ -19,13 +19,13 @@ nikovonlas-webpush:
       autoprompt: 自動申請（立即顯示權限申請）
   notify:
     like:
-      title: '{from} 讚了你的貼文'
+      title: '{from} 讚了您的貼文'
       message: '{post}'
     mention-post:
-      title: '{from} 回覆了你的貼文'
+      title: '{from} 回覆了您的貼文'
       message: '{post}'
     mention:
-      title: '{from} 提及了你'
+      title: '{from} 提及了您'
       message: '{post}'
     post:
       title: '貼文「{title}」有新回覆'
@@ -39,19 +39,19 @@ nikovonlas-webpush:
         message: '@{from}: {post}'
     rename:
       title: '{title}'
-      message: '@{from} 重命名你的貼文为「{title}」'
+      message: '@{from} 重命名您的貼文为「{title}」'
     lock:
       title: '{title}'
-      message: '@{from} 鎖定了你的貼文「{title}」'
+      message: '@{from} 鎖定了您的貼文「{title}」'
     delete:
       title: '{title}'
-      message: '@{from} 刪除了你的貼文「{title}」'
+      message: '@{from} 刪除了您的貼文「{title}」'
     suspend:
-      title: '你的账号被停用'
-      message: '@{from} 停用了你的账号'
+      title: '您的账号被停用'
+      message: '@{from} 停用了您的账号'
     unsuspend:
-      title: '你的账号已重新啟用'
-      message: '@{from} 重新啟用了你的账号'
+      title: '您的账号已重新啟用'
+      message: '@{from} 重新啟用了您的账号'
     flag:
       title: '{from} 標記來一篇貼文'
       message: '{post}'

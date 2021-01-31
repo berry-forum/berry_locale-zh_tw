@@ -15,12 +15,12 @@ fof-stopforumspam:
       frequency_example_text: "例如：如果電子郵件檢查有 1 個命中，IP 檢查有 2 個命中，合計 3 個命中。如果定限設為 3 或更少，那麼將會禁止註冊。"
 
       api_key_label: API 密鑰
-      api_key_text: 你必須啟用 fof/spamblock，你現在可以向 StopForumSpam 回報垃圾蟲以協助社區免遭垃圾攻擊。
-      api_key_instructions_text: <register>註冊 StopForumSpam</register>，然後你可以<key>申請 API 密鑰</key>。
+      api_key_text: 您必須啟用 fof/spamblock，您現在可以向 StopForumSpam 回報垃圾蟲以協助社區免遭垃圾攻擊。
+      api_key_instructions_text: <register>註冊 StopForumSpam</register>，然後您可以<key>申請 API 密鑰</key>。
 
   forum:
     message:
-      spam: 你的訊息被標記為垃圾。
+      spam: 您的訊息被標記為垃圾。
 
   api:
     error:

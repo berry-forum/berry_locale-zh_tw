@@ -4,14 +4,14 @@
 reflar-doorman:
   forum:
     sign_up:
-      invalid_doorkey: 你輸入的邀請碼無效
+      invalid_doorkey: 您輸入的邀請碼無效
       doorkey_required: 請輸入邀請碼
       doorman_placeholder: 邀請碼
       doorman_placeholder_optional: 邀請碼（可選）
 
   admin:
-    invalid_doorkey: 你提供的邀請碼無效
-    doorkey_required: 你必須提供邀請碼
+    invalid_doorkey: 您提供的邀請碼無效
+    doorkey_required: 您必須提供邀請碼
     nav:
       desc: 建立邀請碼用於使用者註冊並分配使用者組
     page:

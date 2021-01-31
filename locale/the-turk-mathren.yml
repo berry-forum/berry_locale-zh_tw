@@ -22,14 +22,14 @@ the-turk-mathren:
       aliasBlockDelimiters: 塊表示式的定界符別名
       aliasInlineDelimiters: 行內表示式的定界符別名
       aliasDelimitersHelp: >-
-        它們是<em>主要 BBCode 定界符</em>的<strong>別名</strong>。如果在你的定界符別名列表中有特殊的定界符（比如 <code>$$</code>），
+        它們是<em>主要 BBCode 定界符</em>的<strong>別名</strong>。如果在您的定界符別名列表中有特殊的定界符（比如 <code>$$</code>），
         MathRen 將會在儲存貼文時掃描整篇貼文來查找額外的定界符，並將用主要 BBCode 定界符替換它們，這將導致儲存貼文的時間變長。
-        你可能需要使用額外的 BBCode 定界符來代替指定的定界符以避免出現類似情形。
+        您可能需要使用額外的 BBCode 定界符來代替指定的定界符以避免出現類似情形。
       ignoringExpressions: 忽略表示式
       ignoringExpressionsHelp: 以逗號分隔。
       decisiveKeywords: 忽略表示式的關鍵詞列表
       decisiveKeywordsHelp: >-
-        你要在<em>指定的</em>右定界符旁邊寫上用花括號括起的某個關鍵詞（例子： <code>$$%e%$${<strong>keyword</strong>}</code>）
+        您要在<em>指定的</em>右定界符旁邊寫上用花括號括起的某個關鍵詞（例子： <code>$$%e%$${<strong>keyword</strong>}</code>）
         或者在 BBCode 內（例子： <code>[math=<strong>keyword</strong>]%e%[/math]</code>）來阻止渲染表示式。
         <strong>請注意</strong> <code>[math]%e%[/math]{<strong>keyword</strong>}</code> 是一個<u>無效用法</u>的示例。
       decisiveKeywordsInfo: 此列表中的第一個關鍵詞將作為預設文字編輯器。
