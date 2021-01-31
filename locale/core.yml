@@ -324,7 +324,7 @@ core:
       password_placeholder: => core.ref.password
       remember_me_label: 記住我
       with_sta: "登入 startAccount"
-      description: "為了改善用戶體驗品質及帳號安全性，自2021年1月28日起，已全面關閉內建註冊及登入功能。<br>請透過 startAccount 進行登入或註冊，更多流程煩請詳閱 <a href="#">startAccount 轉移及註冊流程</a>。"
+      description: "為了改善用戶體驗品質及帳號安全性，自2021年1月28日起，已全面關閉內建註冊及登入功能。請透過 startAccount 進行登入或註冊，更多流程煩請詳閱置頂文章「startAccount 轉移及註冊流程」。"
       sign_up_text: "還沒有帳號？ <a>立即註冊</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
