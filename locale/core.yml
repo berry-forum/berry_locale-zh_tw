@@ -396,6 +396,7 @@ core:
 
     # These translations are used in the Sign Up modal dialog.
     sign_up:
+      with_sta: "申請帳號"
       email_placeholder: => core.ref.email
       dismiss_button: => core.ref.okay
       log_in_text: "已有帳號？ <a>登入</a>"
