@@ -1,7 +1,36 @@
-# https://github.com/FriendsOfFlarum/nightmode/blob/master/resources/locale/en.yml
-# Sun, 29 Sep 2019 16:41:39 +0800
+# https://raw.githubusercontent.com/FriendsOfFlarum/nightmode/master/resources/locale/en.yml
+# Fri, 5 Feb 2021 00:52:48 +0800
 
 fof-nightmode:
+  ref:
+    auto: 自動模式（透過瀏覽器偵測）
+    light: 日間模式
+    dark: 夜間模式
+
+  admin:
+    settings:
+      modal:
+        default_theme: 預設模式
+        default_theme_helper: 將自動為新使用者、來賓和尚未設定優先選項的使用者設定預設模式。
+        theme_auto: => fof-nightmode.ref.auto
+        theme_light: => fof-nightmode.ref.light
+        theme_dark: => fof-nightmode.ref.dark
   forum:
-    night: 夜間模式
-    day: 日間模式
+    day: => fof-nightmode.ref.light
+    night: => fof-nightmode.ref.dark
+
+    user:
+      settings:
+        heading: 閱讀模式
+        description: 選擇您要在論壇上使用的閱讀模式。
+        description2: 選擇選項後，您所選擇的模式將同步到所有登入設備，除非您啟用「不同步閱讀模式設定」。
+        device_specific_setting_checkbox: 不同步閱讀模式設定
+        device_specific_setting_checkbox_tooltip: 您的閱讀模式將須在每個設備中各自設定。
+        options:
+          auto: => fof-nightmode.ref.auto
+          day: => fof-nightmode.ref.light
+          night: => fof-nightmode.ref.dark
+        option_descriptions:
+          auto: 您已開啟自動模式。如果您的系統是夜間模式，那麼網站也會是夜間的；如果是日間的，那麼網站也會是。
+          day: 您已開啟日間模式，白貓超可愛 (^･ｪ･^)
+          night: 您已開啟夜間模式，大家都是夜貓 (=①ω①=)
