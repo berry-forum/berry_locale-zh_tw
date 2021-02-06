@@ -329,6 +329,7 @@ core:
       description_1: "為了提升服務品質及帳號安全性，自2021年1月28日起，已全面關閉內建註冊及登入功能，同時整合了 Social Service 機制。"
       description_2: "請透過 startAccount 進行登入或註冊，更多流程煩請詳閱置頂文章「startAccount 轉移及註冊流程」。"
       description_link: "前往「startAccount 轉移及註冊流程」"
+      nex_anonymous_description: "本功能需要登入才能使用，而您的瀏覽器已被宣告啟用「Nex 隱身模式」，因此 Nex 系統無法準確判斷是否已經登入，請關閉該模式以繼續使用功能。"
       sign_up_text: "還沒有帳號？ <a>立即註冊</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
