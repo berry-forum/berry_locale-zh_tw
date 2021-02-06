@@ -8,8 +8,8 @@ core:
 
 fof-gamification:
   forum:
-    votes: 點推
-    vote_title: 顯示點推的人
+    votes: 推
+    vote_title: 顯示推的人
     nav:
       name: 排名
     ranking:
@@ -26,7 +26,7 @@ fof-gamification:
       title: 打分
       upvotes_label: 推
       downvotes_label: 噓
-    mod_item: 查看點推的人
+    mod_item: 查看推的人
   admin:
     permissions:
       vote_label: 推/噓貼文
@@ -49,11 +49,11 @@ fof-gamification:
         points_title: 佔位符
         points_placeholder: "👍: "
         color_holder: '#ffffff'
-        auto_upvote: 當貼文發佈時自動點推
-        rate_limit: 點推頻率限制（10 秒）
-        discussion_page: 在貼文列表中顯示點推數
+        auto_upvote: 當貼文發佈時自動幫推
+        rate_limit: 推的頻率限制（10 秒）
+        discussion_page: 在貼文列表中顯示推數
         title: 推
-        vote_color: 點推貼顏色
+        vote_color: 推的顏色
         icon_name: 推/噓小圖示
         icon_help: "輸入任何 Font-Awesome 圖標，後綴為 -up 和 -down。 示例：箭頭，拇指，人字紋"
       save_settings: 儲存設定
