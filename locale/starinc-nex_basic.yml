@@ -3,3 +3,13 @@ starinc-nex_basic:
     search: 搜尋
     chat: 聊天
     cc: 聯繫客服
+    heretics:
+      title: Heretics 希爾即時通 ヾ(=ﾟ･ﾟ=)ﾉ
+      dropdown:
+        empty_text: 404 目前沒有聊天室 (/ =ω=)/
+    contact:
+      request: 加入好友
+      manage:
+        title: 好友們 (^・ω・^ )
+        dropdown:
+          empty_text: 目前空空的...快來認識大家吧 ヽ(^‥^=ゞ)
