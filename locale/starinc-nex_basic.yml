@@ -16,8 +16,8 @@ starinc-nex_basic:
           empty_text: 目前空空的...快來認識大家吧 ヽ(^‥^=ゞ)
         action:
           title: 好友申請
-          help_text:
-          decision_title:
+          help_text: "「{requestedUsername}」對「{username}」傳送了好友邀請"
+          decision_title: 請問您是否接受這份好友申請？
           accept_label: 接受
           rejected_label: 拒絕
           submit_button: 送出回覆
