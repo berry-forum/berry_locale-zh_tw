@@ -11,12 +11,12 @@ starinc-nex_basic:
       manage:
         title: 好友們 (^・ω・^ )
         dropdown:
-          item_text: "{username} 申請加入好友"
+          item_text: "{requestedUsername} 申請加入好友"
           exerpt: "{requestedUsername}"
           empty_text: 目前空空的...快來認識大家吧 ヽ(^‥^=ゞ)
         action:
           title: 好友申請
-          help_text: "「{requestedUsername}」對「{username}」傳送了好友邀請"
+          help_text: "「{requestedUsername}」對您傳送了好友邀請"
           decision_title: 請問您是否接受這份好友申請？
           accept_label: 接受
           rejected_label: 拒絕
