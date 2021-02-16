@@ -13,7 +13,7 @@ starinc-nex_basic:
         dropdown:
           request:
             item_text: "{displayName} 申請加入好友"
-            exerpt: ""
+            exerpt: "申請時間 {requestedTime}"
           contact:
             item_text: "{displayName}"
             exerpt: "{userBio}"
