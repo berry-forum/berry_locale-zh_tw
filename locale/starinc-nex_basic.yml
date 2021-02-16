@@ -4,19 +4,23 @@ starinc-nex_basic:
     heretics:
       title: Heretics 希爾即時通 ヾ(=ﾟ･ﾟ=)ﾉ
       dropdown:
-        exerpt: "{requestedUsername} 傳送了訊息"
+        exerpt: "{displayName} 傳送了訊息"
         empty_text: 404 目前沒有聊天室 (/ =ω=)/
     contact:
       request: 加入好友
       manage:
         title: 好友們 (^・ω・^ )
         dropdown:
-          item_text: "{requestedUsername} 申請加入好友"
-          exerpt: "{requestedUsername}"
+          request:
+            item_text: "{displayName} 申請加入好友"
+            exerpt: ""
+          contact:
+            item_text: "{displayName}"
+            exerpt: "{userBio}"
           empty_text: 目前空空的...快來認識大家吧 ヽ(^‥^=ゞ)
         action:
           title: 好友申請
-          help_text: "「{requestedUsername}」對您傳送了好友邀請"
+          help_text: "「{displayName}」對您傳送了好友邀請"
           decision_title: 請問您是否接受這份好友申請？
           accept_label: 接受
           rejected_label: 拒絕
