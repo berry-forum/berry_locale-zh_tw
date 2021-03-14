@@ -4,7 +4,6 @@ starinc-nex_basic:
     heretics:
       title: Heretics 希爾即時通 ヾ(=ﾟ･ﾟ=)ﾉ
       dropdown:
-        exerpt: "{displayName} 傳送了訊息"
         empty_text: 404 目前沒有聊天室 (/ =ω=)/
     contact:
       request: 加入好友
