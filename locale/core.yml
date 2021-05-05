@@ -403,6 +403,7 @@ core:
     sign_up:
       with_sta: "申請帳號"
       with_sta_from_original_nex: "以前是 Nex 使用者？綁定帳號"
+      ignore: "啟用隱身模式，下次再申請"
       email_placeholder: => core.ref.email
       dismiss_button: => core.ref.okay
       log_in_text: "已有帳號？ <a>登入</a>"

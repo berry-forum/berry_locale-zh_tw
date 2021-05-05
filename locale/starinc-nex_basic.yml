@@ -2,9 +2,9 @@ starinc-nex_basic:
   forum:
     social-service: Social Service
     heretics:
-      title: Heretics 希爾即時通 ヾ(=ﾟ･ﾟ=)ﾉ
+      title: 希爾即時通 ヾ(=ﾟ･ﾟ=)ﾉ
       dropdown:
-        empty_text: 404 目前沒有聊天室 (/ =ω=)/
+        empty_text:  (/ =ω=)/ 目前沒有聊天室
     contact:
       request: 加入好友
       manage:
