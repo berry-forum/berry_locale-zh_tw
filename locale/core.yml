@@ -401,8 +401,8 @@ core:
 
     # These translations are used in the Sign Up modal dialog.
     sign_up:
-      with_sta: "申請帳號"
-      with_sta_from_original_nex: "以前是 Nex 使用者？綁定帳號"
+      with_sta: "申請 Nex ID"
+      with_sta_from_original_nex: "以前是 Nex 使用者？綁定 Nex ID"
       ignore: "啟用隱身模式，下次再申請"
       email_placeholder: => core.ref.email
       dismiss_button: => core.ref.okay
@@ -414,7 +414,7 @@ core:
       welcome_text: "歡迎造訪，{username}！"
 
     activate:
-      title: "申請帳號"
+      title: "Nex ID 不存在"
       description_1: "您已登入 startAccount ，但您的帳號尚未連結到任何一個 Nex ID。"
       description_2: "您可選擇使用「隱身模式」繼續瀏覽 Nex；或前往申請 Nex ID 以享用 Social Service 平台所提供之服務"
 
