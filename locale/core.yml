@@ -417,6 +417,7 @@ core:
       title: "申請帳號"
       description_1: "您已登入startAccount，但您的帳號尚未連結到任何一個 Nex ID。"
       description_2: ""
+      policy_link: => "服務條款、隱私政策"
 
     # These translations are used in the user profile page and profile popup.
     user:
