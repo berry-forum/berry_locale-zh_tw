@@ -415,8 +415,8 @@ core:
 
     activate:
       title: "申請帳號"
-      description_1: "您已登入startAccount，但您的帳號尚未連結到任何一個Nex ID。"
-      description_2: "您可選擇使用「隱身模式」繼續瀏覽Nex；或前往申請Nex ID以享用Social Service平台所提供之服務"
+      description_1: "您已登入 startAccount ，但您的帳號尚未連結到任何一個 Nex ID。"
+      description_2: "您可選擇使用「隱身模式」繼續瀏覽 Nex；或前往申請 Nex ID 以享用 Social Service 平台所提供之服務"
 
     # These translations are used in the user profile page and profile popup.
     user:
