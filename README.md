@@ -1,11 +1,11 @@
-# Nex
+# Berry
 
 全方位的『超』自由論壇
 > 為壓力大想找人抒發，或者心中有小宇宙想找人分享的您
 >
 > 提供最棒的多元交流平台
 
-![logo](nex.png)
+![logo](icon.png)
 
 ## 正體中文 語言包
 
@@ -14,7 +14,7 @@
     The MIT License (MIT)
 
     Copyright (c) Csineneo
-    Copyright (c) 2020 Star Inc. (https://starinc.xyz)
+    Copyright (c) 2023 Star Inc. (https://starinc.xyz)
 
     Based on English resources, copyright (c) 2015-2017 Toby Zerner
 
@@ -36,4 +36,4 @@
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
 
-> (c) 2020 [Star Inc.](https://starinc.xyz)
+> (c) 2023 [Star Inc.](https://starinc.xyz)
