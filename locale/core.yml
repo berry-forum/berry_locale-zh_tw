@@ -8,71 +8,75 @@ core:
 
   # Translations in this namespace are used by the admin interface.
   admin:
+
     # These translations are used in the Appearance page.
     appearance:
-      colored_header_label: Colored Header
-      colors_heading: Colors
-      colors_primary_label: Primary Color
-      colors_secondary_label: Secondary Color
-      colors_text: "Choose two colors to theme your forum with. The first will be used as a highlight color, while the second will be used to style background elements."
-      custom_footer_heading: Custom Footer
+      colored_header_label: 彩色標題列
+      colors_heading: 顏色
+      colors_primary_label: 主要顏色
+      colors_secondary_label: 次要顏色
+      colors_text: "選擇兩種顏色來為您的論壇設計主題。第一種顏色將用作突出顯示顏色，而第二種顏色將用於設計背景元素。"
+      custom_footer_heading: 自訂頁尾
       custom_footer_text: => core.ref.custom_footer_text
-      custom_header_heading: Custom Header
+      custom_header_heading: 自訂頁首
       custom_header_text: => core.ref.custom_header_text
-      custom_styles_heading: Custom Styles
-      custom_styles_text: Customize your forum's appearance by adding your own Less/CSS code to be applied on top of Flarum's default styles.
-      dark_mode_label: Dark Mode
-      description: "Customize your forum's colors, logos, and other variables."
-      edit_css_button: Edit Custom CSS
+      custom_styles_heading: 自訂樣式
+      custom_styles_text: 透過添加自己的 Less/CSS 代碼，可自定義論壇外觀並套用於 Flarum 的預設樣式之上。
+      dark_mode_label: 黑暗模式
+      description: "自訂論壇的顏色、標誌和其他變數。"
+      edit_css_button: 編輯自訂 CSS
       edit_footer_button: => core.ref.custom_footer_title
       edit_header_button: => core.ref.custom_header_title
-      enter_hex_message: Please enter a hexadecimal color code.
-      favicon_heading: Favicon
-      favicon_text: Upload an image to be displayed as the forum's shortcut icon.
-      logo_heading: Logo
-      logo_text: Upload an image to be displayed in place of the forum title.
-      title: Appearance
+      enter_hex_message: 請輸入十六進位顏色碼。
+      favicon_heading: 書籤圖示
+      favicon_text: 上傳一張圖片作為論壇的書籤圖示。
+      logo_heading: 徽標
+      logo_text: 上傳一張圖片取代論壇標題。
+      title: 外觀
+
 
     # These translations are used in the Basics page.
     basics:
       all_discussions_label: => core.ref.all_discussions
-      default_language_heading: Default Language
-      description: "Set your forum title, language, and other basic settings."
-      display_name_heading: User Display Name
-      display_name_text: Select the driver that should be used for users' display names. By default, the username is shown.
-      forum_description_heading: Forum Description
-      forum_description_text: Enter a short sentence or two that describes your community. This will appear in the meta tag and show up in search engines.
-      forum_title_heading: Forum Title
-      home_page_heading: Home Page
-      home_page_text: Choose the page which users will first see when they visit your forum.
-      show_language_selector_label: Show language selector
+      default_language_heading: 預設語言
+      description: "設定你的論壇標題、語言以及其他基本設定。"
+      display_name_heading: 用戶顯示名稱
+      display_name_text: 選擇用於用戶顯示名稱的驅動程式。預設情況下，會顯示用戶名稱。
+      forum_description_heading: 論壇描述
+      forum_description_text: 輸入一兩句簡短的句子來描述你的社區。這將出現在元標記中並顯示在搜索引擎中。
+      forum_title_heading: 論壇標題
+      home_page_heading: 首頁
+      home_page_text: 選擇使用者首次訪問你的論壇時會看到的頁面。
+      show_language_selector_label: 顯示語言選擇器
       slug_driver_heading: "Slug Driver: {model}"
-      slug_driver_text: Select a driver to be used for slugging this model.
-      title: Basics
-      welcome_banner_heading: Welcome Banner
-      welcome_banner_text: Configure the text that displays in the banner on the All Discussions page. Use this to welcome guests to your forum.
+      slug_driver_text: 選擇一個驅動程序用於在此模型中使用 Slug。
+      title: 基礎設定
+      welcome_banner_heading: 歡迎橫幅
+      welcome_banner_text: 配置在所有討論頁面的橫幅中顯示的文本。使用它來歡迎訪客到您的論壇。
+
 
     # These translations are used in the Dashboard page.
     dashboard:
-      clear_cache_button: Clear Cache
-      description: Your forum at a glance.
-      io_error_message: "Could not write to filesystem. Check your filesystem permissions and try again. Or try running from the command line."
-      title: Dashboard
-      tools_button: Tools
+      clear_cache_button: 清除緩存
+      description: 概覽您的論壇。
+      io_error_message: "無法寫入文件系統。請檢查您的文件系統權限並重試。或者嘗試從命令行運行。"
+      title: 儀表板
+      tools_button: 工具
 
     # These translations are usin in the debug warning widget.
     debug-warning:
       detail: |
-        When <code>debug</code> mode is active, Flarum will rebuild its <code>JavaScript</code> and <code>CSS</code> assets on every request, and could also potentially leak other information, such as database secrets, environment variables, etc.
+        當 <code>debug</code> 模式啟用時，Flarum 每次請求時都會重新構建其 <code>JavaScript</code> 和 <code>CSS</code> 資產，並且還可能洩漏其他信息，例如數據庫密碼、環境變數等。
+    
+        在生產環境中強烈建議在 <code>config.php</code> 文件中禁用 <code>debug</code>。請參閱 <link>Flarum 文檔</link> 以獲取更多信息。
+      label: Debug 模式啟用中
 
-        It is highly recommended to disable <code>debug</code> in your <code>config.php</code> file in production. See <link>Flarum docs</link> for more information.
-      label: Debug mode active
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
-      customize_text: "Customize your forum's appearance by adding your own Less/CSS code to be applied on top of Flarum's <a>default styles</a>."
+      customize_text: "在 Flarum 的<a>默認樣式</a>之上添加自己的 Less/CSS 代碼，自定義論壇的外觀。"
       submit_button: => core.ref.save_changes
-      title: Edit Custom CSS
+      title: 編輯自定義 CSS
 
     # These translations are used in the Edit Custom Footer modal dialog.
     edit_footer:
@@ -82,17 +86,17 @@ core:
 
     # These translations are used in the Edit Group modal dialog.
     edit_group:
-      color_label: => core.ref.color
-      delete_button: Delete Group
-      delete_confirmation: "Are you sure you want to delete this group? The group members will NOT be deleted."
-      hide_label: Hide on forum
-      icon_label: => core.ref.icon
-      icon_text: => core.ref.icon_text
-      name_label: Name
-      plural_placeholder: Plural (e.g. Mods)
-      singular_placeholder: Singular (e.g. Mod)
-      submit_button: => core.ref.save_changes
-      title: Create Group
+      color_label: "顏色"
+      delete_button: "刪除群組"
+      delete_confirmation: "你確定要刪除此群組嗎？群組成員將不會被刪除。"
+      hide_label: "在論壇上隱藏"
+      icon_label: "圖示"
+      icon_text: "輸入任何 FontAwesome 圖示類別的名稱，包括 fas fa- 前綴。"
+      name_label: "名稱"
+      plural_placeholder: "複數 (例如 Mods)"
+      singular_placeholder: "單數 (例如 Mod)"
+      submit_button: "儲存變更"
+      title: "建立群組"
 
     # These translations are used in the Edit Custom Header modal dialog.
     edit_header:
@@ -102,51 +106,51 @@ core:
 
     # These translations are used in the email page of the admin interface.
     email:
-      addresses_heading: Addresses
-      description: "Configure the driver, settings and addresses your forum will use to send email."
-      driver_heading: Choose a Driver
-      driver_label: Driver
-      from_label: Sender
-      mail_encryption_label: Encryption
-      mail_host_label: Host
-      mail_mailgun_domain_label: Domain
-      mail_mailgun_region_label: Region
-      mail_mailgun_secret_label: Secret key
+      addresses_heading: 地址
+      description: "設定你的論壇將使用的郵件發送驅動程序，設置和地址。"
+      driver_heading: 選擇驅動程序
+      driver_label: 驅動程序
+      from_label: 發件人
+      mail_encryption_label: 加密
+      mail_host_label: 主機
+      mail_mailgun_domain_label: 域名
+      mail_mailgun_region_label: 地區
+      mail_mailgun_secret_label: 密鑰
       mail_password_label: => core.ref.password
-      mail_port_label: Port
+      mail_port_label: 端口
       mail_username_label: => core.ref.username
-      mailgun_heading: Mailgun Settings
-      not_sending_message: Flarum currently does not send emails. This can be due to the selected driver, or errors in its configuration.
-      send_test_mail_button: Send
-      send_test_mail_heading: Send Test Mail
-      send_test_mail_success: "Test mail sent successfully!"
-      send_test_mail_text: "This will send an email using the above configuration to your email, {email}."
-      smtp_heading: SMTP Settings
+      mailgun_heading: Mailgun設置
+      not_sending_message: Flarum目前不會發送電子郵件。這可能是由於所選的驅動程序或其配置中的錯誤引起的。
+      send_test_mail_button: 發送
+      send_test_mail_heading: 發送測試郵件
+      send_test_mail_success: "測試郵件發送成功！"
+      send_test_mail_text: "這將使用上述配置向您的電子郵件{email}發送一封郵件。"
+      smtp_heading: SMTP設置
       title: => core.ref.email
 
     # These translations are used on default extension pages.
     extension:
-      configure_scopes: Configure Scopes
-      confirm_purge: Purging will remove all database entries and assets related to the extension. It will not uninstall the extension; that must be done via Composer. Are you sure you want to continue?
-      disabled: Disabled
-      enable_to_see: Enable the extension to view and change settings.
-      enabled: Enabled
+      configure_scopes: 配置作用域
+      confirm_purge: "清除會刪除所有與擴展相關的數據庫項目和資源。它不會卸載擴展；必須通過 Composer 完成。您確定要繼續嗎？"
+      disabled: 禁用
+      enable_to_see: 啟用擴展以查看和更改設置。
+      enabled: 已啟用
       info_links:
-        discuss: Discuss
-        documentation: Documentation
-        donate: Donate
-        source: Source
-        support: Support
-        website: Website
-      no_permissions: This extension has no permissions.
-      no_settings: This extension has no settings.
-      open_modal: Open Settings
-      permissions_title: Permissions
-      purge_button: Purge
+        discuss: 討論
+        documentation: 文檔
+        donate: 捐贈
+        source: 源代碼
+        support: 支援
+        website: 網站
+      no_permissions: 此擴展沒有權限。
+      no_settings: 此擴展沒有設置。
+      open_modal: 打開設置
+      permissions_title: 權限
+      purge_button: 清除
       readme:
-        button_label: README
-        no_readme: This extension does not appear to have a README file
-        title: "{extName} documentation"
+        button_label: 讀我
+        no_readme: 此擴展似乎沒有 README 檔案
+        title: "{extName} 文檔"
 
     # These translations are used in the secondary header.
     header:
@@ -155,7 +159,7 @@ core:
 
     # These translations are used in the modal dialog displayed when loading extensions.
     loading:
-      title: Please Wait...
+      title: 請稍等...
 
     # These translations are used in the navigation bar.
     nav:
@@ -164,15 +168,15 @@ core:
       basics_button: => core.admin.basics.title
       basics_title: => core.admin.basics.description
       categories:
-        authentication: Authentication
-        core: Core Configuration
-        discussion: Discussion
-        feature: Features
-        formatting: Formatting
-        language: Languages
-        moderation: Moderation
-        other: Other Extensions
-        theme: Themes
+        authentication: 認證
+        core: 核心設定
+        discussion: 討論
+        feature: 功能
+        formatting: 格式
+        language: 語言
+        moderation: 審核
+        other: 其他擴充功能
+        theme: 佈景主題
       dashboard_button: => core.admin.dashboard.title
       dashboard_title: => core.admin.dashboard.description
       email_button: => core.ref.email
@@ -181,381 +185,383 @@ core:
       permissions_title: => core.admin.permissions.description
       userlist_button: => core.admin.users.title
       userlist_title: => core.admin.users.description
-      search_placeholder: Search Extensions
+      search_placeholder: 搜尋擴充功能
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_post_editing_label: Allow post editing
-      allow_renaming_label: Allow renaming
-      create_heading: Create
-      delete_discussions_forever_label: Delete discussions forever
-      delete_discussions_label: Delete discussions
-      delete_posts_forever_label: Delete posts forever
-      delete_posts_label: Delete posts
-      description: Configure who can see and do what.
-      edit_posts_label: Edit posts
-      edit_users_label: Edit user attributes
-      edit_users_credentials_label: Edit user credentials
-      edit_users_groups_label: Edit user groups
-      global_heading: Global
-      moderate_heading: Moderate
-      new_group_button: New Group
-      participate_heading: Participate
-      post_without_throttle_label: Reply multiple times without waiting
-      read_heading: Read
-      rename_discussions_label: Rename discussions
-      reply_to_discussions_label: Reply to discussions
-      search_users_label: Search users
-      sign_up_label: Sign up
-      start_discussions_label: Start discussions
-      title: Permissions
-      view_forum_label: View forum (discussions and users)
-      view_hidden_groups_label: View hidden group badges
-      view_last_seen_at_label: Always view user last seen time
-      view_post_ips_label: View post IP addresses
+      allow_post_editing_label: 允許編輯文章
+      allow_renaming_label: 允許重新命名
+      create_heading: 建立
+      delete_discussions_forever_label: 永久刪除討論串
+      delete_discussions_label: 刪除討論串
+      delete_posts_forever_label: 永久刪除文章
+      delete_posts_label: 刪除文章
+      description: 設定誰可以看到和執行什麼操作。
+      edit_posts_label: 編輯文章
+      edit_users_label: 編輯使用者屬性
+      edit_users_credentials_label: 編輯使用者憑證
+      edit_users_groups_label: 編輯使用者群組
+      global_heading: 全域
+      moderate_heading: 審核
+      new_group_button: 新增群組
+      participate_heading: 參與
+      post_without_throttle_label: 可多次回覆而不用等待
+      read_heading: 閱讀
+      rename_discussions_label: 重新命名討論串
+      reply_to_discussions_label: 回覆討論串
+      search_users_label: 搜尋使用者
+      sign_up_label: 註冊
+      start_discussions_label: 開始討論串
+      title: 權限
+      view_forum_label: 查看討論區（包括討論串和使用者）
+      view_hidden_groups_label: 查看隱藏群組標誌
+      view_last_seen_at_label: 總是查看使用者上次活動時間
+      view_post_ips_label: 查看文章 IP 位址
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
-      allow_indefinitely_button: Indefinitely
-      allow_some_minutes_button: "{count, plural, one {For # minute} other {For # minutes}}"
-      allow_ten_minutes_button: For 10 minutes
-      allow_until_reply_button: Until next reply
-      everyone_button: Everyone
+      allow_indefinitely_button: 無限期
+      allow_some_minutes_button: "{count, plural, one {# 分鐘} other {# 分鐘}}"
+      allow_ten_minutes_button: 10 分鐘
+      allow_until_reply_button: 等待回覆
+      everyone_button: 所有人
       members_button: => core.group.members
-      signup_closed_button: Closed
-      signup_open_button: Open
+      signup_closed_button: 已關閉
+      signup_open_button: 已開放
 
     # These translations are used generically in setting fields.
     settings:
-      saved_message: Your changes were saved.
+      saved_message: 您的更改已保存。
       submit_button: => core.ref.save_changes
 
     # These translations are used in image upload buttons.
     upload_image:
       remove_button: => core.ref.remove
-      upload_button: Choose an Image...
+      upload_button: 選擇圖片...
 
     # These translations are used for the users list on the admin dashboard.
     users:
-      description: A paginated list of all users on your forum.
+      description: 列出論壇上所有使用者的分頁清單。
 
       grid:
         columns:
           edit_user:
             button: => core.ref.edit
             title: => core.ref.edit_user
-            tooltip: Edit {username}
+            tooltip: 編輯 {username}
 
           email:
             title: => core.ref.email
-            visibility_hide: Hide email address
-            visibility_show: Show email address
+            visibility_hide: 隱藏電子郵件
+            visibility_show: 顯示電子郵件
 
           group_badges:
-            no_badges: None
-            title: Groups
+            no_badges: 無
+            title: 群組
 
           join_time:
-            title: Joined
+            title: 加入時間
 
           user_id:
             title: ID
 
           username:
-            profile_link_tooltip: Visit {username}'s profile
+            profile_link_tooltip: 查看 {username} 的個人檔案
             title: => core.ref.username
 
-        invalid_column_content: Invalid
+        invalid_column_content: 無效的內容
 
       pagination:
-        back_button: Previous page
-        next_button: Next page
-        page_counter: Page {current} of {total}
+        back_button: 上一頁
+        next_button: 下一頁
+        page_counter: 第 {current} 頁，共 {total} 頁
 
-      title: => core.ref.users
-      total_users: "Total users: {count}"
+      title: 所有使用者
+      total_users: "總使用者數: {count}"
+
 
   # Translations in this namespace are used by the forum user interface.
   forum:
+
     # These translations are used in the Change Email modal dialog.
     change_email:
-      confirm_password_placeholder: => core.ref.confirm_password
-      confirmation_message: => core.ref.confirmation_email_sent
-      dismiss_button: => core.ref.okay
-      incorrect_password_message: The password you entered is incorrect.
-      submit_button: => core.ref.save_changes
-      title: => core.ref.change_email
+      confirm_password_placeholder: 確認密碼
+      confirmation_message: 確認電子郵件已發送
+      dismiss_button: 確定
+      incorrect_password_message: 您輸入的密碼不正確。
+      submit_button: 儲存變更
+      title: 更改電子郵件
 
     # These translations are used in the Change Password modal dialog.
     change_password:
-      send_button: Send Password Reset Email
-      text: Click the button below and check your email for a link to change your password.
+      send_button: 發送重置密碼郵件
+      text: 點擊下方按鈕，檢查您的電子郵件，以獲取更改密碼的鏈接。
       title: => core.ref.change_password
 
     # These translations are used by the composer controls.
     composer:
-      close_tooltip: Close
-      exit_full_screen_tooltip: Exit Full Screen
-      full_screen_tooltip: Full Screen
-      minimize_tooltip: Minimize
-      preview_tooltip: Preview
+      close_tooltip: 關閉
+      exit_full_screen_tooltip: 退出全屏
+      full_screen_tooltip: 全屏
+      minimize_tooltip: 最小化
+      preview_tooltip: 預覽
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      body_placeholder: Write a Post...
-      discard_confirmation: "You have not posted your discussion. Do you wish to discard it?"
-      submit_button: Post Discussion
-      title: => core.ref.start_a_discussion
-      title_placeholder: Discussion Title
+      body_placeholder: 撰寫一篇文章...
+      discard_confirmation: "你還沒有發布你的討論，你要放棄它嗎？"
+      submit_button: 發布討論
+      title: 新開始討論
+      title_placeholder: 討論標題
 
     # These translations are used by the composer when editing a post.
     composer_edit:
-      discard_confirmation: "You have not saved your changes. Do you wish to discard them?"
-      edited_message: Your edit was made.
-      post_link: "Post #{number} in {discussion}"
+      discard_confirmation: "你還沒有儲存你的更改，你確定要捨棄它們嗎？"
+      edited_message: 您的編輯已完成。
+      post_link: "{discussion} 的帖子#{number}"
       submit_button: => core.ref.save_changes
       view_button: => core.ref.view
 
     # These translations are used by the composer when replying to a discussion.
     composer_reply:
       body_placeholder: => core.ref.write_a_reply
-      discard_confirmation: "You have not posted your reply. Do you wish to discard it?"
-      posted_message: Your reply was posted.
-      submit_button: Post Reply
+      discard_confirmation: "您尚未發布您的回覆，是否確定要放棄？"
+      posted_message: 您的回覆已發佈。
+      submit_button: 發布回覆
       view_button: => core.ref.view
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      cannot_reply_button: Can't Reply
-      cannot_reply_text: You don't have permission to reply to this discussion.
-      delete_button: => core.ref.delete
-      delete_confirmation: "Are you sure you want to delete this discussion?"
-      delete_forever_button: => core.ref.delete_forever
-      log_in_to_reply_button: Log In to Reply
-      rename_button: => core.ref.rename
-      reply_button: => core.ref.reply
-      restore_button: => core.ref.restore
-      toggle_dropdown_accessible_label: Toggle discussion actions dropdown menu
+      cannot_reply_button: 無法回覆
+      cannot_reply_text: 您沒有回覆此討論的權限。
+      delete_button: 刪除
+      delete_confirmation: "您確定要刪除此討論嗎？"
+      delete_forever_button: 刪除 (永久)
+      log_in_to_reply_button: 登入以回覆
+      rename_button: 重新命名
+      reply_button: 回覆
+      restore_button: 還原
+      toggle_dropdown_accessible_label: 切換討論操作下拉選單
 
     # These translations are used in the discussion list.
     discussion_list:
-      empty_text: It looks as though there are no discussions here.
+      empty_text: 這裡似乎沒有任何討論。
       load_more_button: => core.ref.load_more
-      replied_text: "{username} replied {ago}"
-      started_text: "{username} started {ago}"
-      total_replies_a11y_label: "{count, plural, one {# reply} other {# replies}}"
-      unread_replies_a11y_label: "{count, plural, one {# unread reply} other {# unread replies}}. Mark unread {count, plural, one {reply} other {replies}} as read."
+      replied_text: "{username} 回覆於 {ago}"
+      started_text: "{username} 發起於 {ago}"
+      total_replies_a11y_label: "總共 {count, plural, one {# 則回覆} other {# 則回覆}}"
+      unread_replies_a11y_label: "有 {count, plural, one {# 則未讀回覆} other {# 則未讀回覆}}。將 {count, plural, one {則未讀回覆} other {則未讀回覆}} 標記為已讀。"
 
     # These translations are used in the Forgot Password modal dialog.
     forgot_password:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
-      email_sent_message: If the email you entered is registered with this site, we'll send you an email containing a link to reset your password. Check your spam folder if you don't receive it within the next minute or two.
-      not_found_message: There is no user registered with that email address.
-      submit_button: Recover Password
-      text: Enter your email address and we will send you a link to reset your password.
-      title: Forgot Password
+      email_sent_message: 如果您輸入的電子郵件已在此網站註冊，我們將向您發送一封電子郵件，其中包含重設密碼的連結。如果您在一兩分鐘內沒有收到該郵件，請檢查您的垃圾郵件資料夾。
+      not_found_message: 沒有註冊該電子郵件地址的用戶。
+      submit_button: 重設密碼
+      text: 輸入您的電子郵件地址，我們將向您發送一個重設密碼的連結。
+      title: 忘記密碼
 
     # These translations are used in the header and session dropdown menu.
     header:
-      admin_button: Administration
-      back_to_index_tooltip: Back to Discussion List
-      locale_dropdown_accessible_label: Change forum locale
-      log_in_link: => core.ref.log_in
-      log_out_button: => core.ref.log_out
-      profile_button: Profile
-      search_clear_button_accessible_label: Clear search query
-      search_placeholder: Search Forum
-      search_role_label: Search Forum
-      session_dropdown_accessible_label: Toggle session options dropdown menu
-      settings_button: => core.ref.settings
-      sign_up_link: => core.ref.sign_up
+      admin_button: 管理員
+      back_to_index_tooltip: 返回討論列表
+      locale_dropdown_accessible_label: 更改論壇語言
+      log_in_link: 登入
+      log_out_button: 登出
+      profile_button: 個人資料
+      search_clear_button_accessible_label: 清除搜尋
+      search_placeholder: 搜尋論壇
+      search_role_label: 搜尋論壇
+      session_dropdown_accessible_label: 切換設定選單
+      settings_button: 設定
+      sign_up_link: 註冊
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       all_discussions_link: => core.ref.all_discussions
-      cannot_start_discussion_button: Can't Start Discussion
-      mark_all_as_read_confirmation: "Are you sure you want to mark all discussions as read?"
+      cannot_start_discussion_button: 無法發起討論
+      mark_all_as_read_confirmation: "您確定要將所有討論標記為已讀嗎？"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       meta_title_text: => core.ref.all_discussions
-      refresh_tooltip: Refresh
+      refresh_tooltip: 重新整理
       start_discussion_button: => core.ref.start_a_discussion
-      toggle_sidenav_dropdown_accessible_label: Toggle navigation dropdown menu
+      toggle_sidenav_dropdown_accessible_label: 切換導覽選單下拉式選單
 
     # These translations are used by the sorting control above the discussion list.
     index_sort:
-      latest_button: Latest
-      newest_button: Newest
-      oldest_button: Oldest
-      relevance_button: Relevance
-      toggle_dropdown_accessible_label: Change discussion list sorting
-      top_button: Top
+      latest_button: 最新
+      newest_button: 最舊
+      oldest_button: 最舊
+      relevance_button: 相關性
+      toggle_dropdown_accessible_label: 變更討論串排序方式
+      top_button: 熱門
 
     # These translations are used in the Log In modal dialog.
     log_in:
-      forgot_password_link: "Forgot password?"
-      invalid_login_message: Your login details were incorrect.
+      forgot_password_link: "忘記密碼？"
+      invalid_login_message: 您的登入資訊不正確。
       password_placeholder: => core.ref.password
-      remember_me_label: Remember Me
-      sign_up_text: "Don't have an account? <a>Sign Up</a>"
+      remember_me_label: 記住我
+      sign_up_text: "還沒有帳號？<a>註冊</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
-      username_or_email_placeholder: Username or Email
+      username_or_email_placeholder: 使用者名稱或電子郵件
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      delete_all_confirm: Are you sure you want to delete all notifications? This action is not reversable
-      delete_all_tooltip: Delete all notifications
-      discussion_renamed_text: "{username} changed the title"
-      empty_text: No Notifications
+      delete_all_confirm: 確定要刪除所有通知嗎？此操作無法撤銷
+      delete_all_tooltip: 刪除所有通知
+      discussion_renamed_text: "{username} 更改了標題"
+      empty_text: 暫無通知
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
-      mark_as_read_tooltip: Mark as Read
+      mark_as_read_tooltip: 標記為已讀
       title: => core.ref.notifications
-      toggle_dropdown_accessible_label: View notifications
+      toggle_dropdown_accessible_label: 查看通知
       tooltip: => core.ref.notifications
 
     # These translations are used by tooltips displayed for individual posts.
     post:
-      edited_text: Edited
-      edited_tooltip: "{username} edited {ago}"
-      number_tooltip: "Post #{number}"
+      edited_text: 已編輯
+      edited_tooltip: "{username} 在{ago}前編輯"
+      number_tooltip: "帖子 #{number}"
 
     # These translations are used by the post control buttons.
     post_controls:
       delete_button: => core.ref.delete
-      delete_confirmation: "Are you sure you want to delete this post forever? This action cannot be undone."
+      delete_confirmation: "您確定要永久刪除此貼文嗎？此操作無法撤銷。"
       delete_forever_button: => core.ref.delete_forever
       edit_button: => core.ref.edit
-      hide_confirmation: "Are you sure you want to delete this post?"
+      hide_confirmation: "您確定要刪除此貼文嗎？"
       restore_button: => core.ref.restore
-      toggle_dropdown_accessible_label: Toggle post controls dropdown menu
+      toggle_dropdown_accessible_label: 切換貼文控制下拉式選單
 
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
-      now_link: Now
-      original_post_link: Original Post
-      unread_text: "{count} unread"
-      viewing_text: "{count, plural, one {{index} of {formattedCount} post} other {{index} of {formattedCount} posts}}"
+      now_link: 現在
+      original_post_link: 原始文章
+      unread_text: "{count} 未讀"
+      viewing_text: "{count, plural, one {{index} / {formattedCount} 則文章} other {{index} / {formattedCount} 則文章}}"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_renamed_old_tooltip: 'The old title was: "{old}"'
-      discussion_renamed_text: "{username} changed the title to {new}."
+      discussion_renamed_old_tooltip: '舊標題是: "{old}"'
+      discussion_renamed_text: "{username} 把標題改成了 {new}。"
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
-      time_lapsed_text: "{period} later"
+      time_lapsed_text: "{period} 後"
 
     # These translations are used by the rename discussion modal.
     rename_discussion:
       submit_button: => core.ref.rename
-      title: Rename Discussion
+      title: 重新命名討論主題
 
     # These translations are used by the search results dropdown list.
     search:
-      all_discussions_button: 'Search all discussions for "{query}"'
+      all_discussions_button: '搜尋所有討論串 "{query}"'
       discussions_heading: => core.ref.discussions
       users_heading: => core.ref.users
 
     # These translations are used in the Settings page.
     settings:
-      account_heading: Account
+      account_heading: 帳戶
       change_email_button: => core.ref.change_email
       change_password_button: => core.ref.change_password
-      notification_checkbox_a11y_label_template: 'Receive "{description}" notifications via {method}'
+      notification_checkbox_a11y_label_template: '透過 {method} 收到"{description}"通知'
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
-      notify_by_web_heading: Web
-      notify_discussion_renamed_label: Someone renames a discussion I started
-      privacy_disclose_online_label: Allow others to see when I am online
-      privacy_heading: Privacy
+      notify_by_web_heading: 網路
+      notify_discussion_renamed_label: 有人更改我所發起的討論
+      privacy_disclose_online_label: 允許其他人看到我何時上線
+      privacy_heading: 隱私
       title: => core.ref.settings
 
     # These translations are used in the Sign Up modal dialog.
     sign_up:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
-      log_in_text: "Already have an account? <a>Log In</a>"
+      log_in_text: "已經有帳戶？<a>登入</a>"
       password_placeholder: => core.ref.password
       submit_button: => core.ref.sign_up
       title: => core.ref.sign_up
       username_placeholder: => core.ref.username
-      welcome_text: "Welcome, {username}!"
+      welcome_text: "歡迎，{username}！"
 
     # These translations are used in the user profile page and profile popup.
     user:
       avatar_remove_button: => core.ref.remove
-      avatar_upload_button: Upload
-      avatar_upload_tooltip: Upload a new avatar
+      avatar_upload_button: 上傳
+      avatar_upload_tooltip: 上傳新的頭像
       discussions_link: => core.ref.discussions
-      in_discussion_text: "In {discussion}"
-      joined_date_text: "Joined {ago}"
-      online_text: Online
-      posts_empty_text: It looks like there are no posts here.
+      in_discussion_text: "在 {discussion} 中"
+      joined_date_text: "加入於 {ago}"
+      online_text: 在線
+      posts_empty_text: 這裡似乎沒有帖子。
       posts_link: => core.ref.posts
       posts_load_more_button: => core.ref.load_more
       settings_link: => core.ref.settings
 
     # These translations are found on the user profile page (admin function).
     user_controls:
-      button: Controls
+      button: 控制項
       delete_button: => core.ref.delete
-      delete_confirmation: "Are you sure you want to delete this user? The user's posts will NOT be deleted."
-      delete_error_message: "Deletion of user <i>{username} ({email})</i> failed"
-      delete_success_message: "User <i>{username} ({email})</i> was deleted"
+      delete_confirmation: "您確定要永久刪除此使用者嗎？使用者的文章不會被刪除。"
+      delete_error_message: "刪除使用者 <i>{username} ({email})</i> 失敗"
+      delete_success_message: "使用者 <i>{username} ({email})</i> 已刪除"
       edit_button: => core.ref.edit
-      toggle_dropdown_accessible_label: Toggle user controls dropdown menu
+      toggle_dropdown_accessible_label: 切換使用者控制項下拉選單
 
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
     user_email_confirmation:
       alert_message: => core.ref.confirmation_email_sent
-      resend_button: Resend Confirmation Email
-      sent_message: Sent
+      resend_button: 重新寄送確認信
+      sent_message: 已寄出
 
     welcome_hero:
-      hide: Hide welcome message
+      hide: 隱藏歡迎信息
 
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
-    debug_button: Debug
+    debug_button: 除錯
 
     # These translations are used in the Alert component.
     alert:
-      dismiss_a11y_label: Dismiss alert
+      dismiss_a11y_label: 關閉警示
 
     # These translations are displayed as tooltips for discussion badges.
     badge:
-      hidden_tooltip: Hidden
+      hidden_tooltip: 隱藏
 
     # These translations are used in the dropdown component.
     dropdown:
-      toggle_dropdown_accessible_label: Toggle dropdown menu
+      toggle_dropdown_accessible_label: 切換下拉選單
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
-      activate_button: Activate User
+      activate_button: 啟用使用者
       email_heading: => core.ref.email
       email_label: => core.ref.email
-      groups_heading: Groups
+      groups_heading: 群組
       password_heading: => core.ref.password
       password_label: => core.ref.password
-      set_password_label: Set new password
+      set_password_label: 設定新密碼
       submit_button: => core.ref.save_changes
       title: => core.ref.edit_user
       username_heading: => core.ref.username
       username_label: => core.ref.username
-      nothing_available: You are not allowed to edit this user.
+      nothing_available: 您無權編輯此使用者。
 
     # These translations are displayed as error messages.
     error:
-      dependent_extensions_message: "Cannot disable {extension} until the following dependent extensions are disabled: {extensions}"
-      extension_initialiation_failed_message: "{extension} failed to initialize, check the browser console for further information."
-      generic_message: "Oops! Something went wrong. Please reload the page and try again."
-      missing_dependencies_message: "Cannot enable {extension} until the following dependencies are enabled: {extensions}"
-      not_found_message: The requested resource was not found.
-      payload_too_large_message: The request payload was too large.
-      permission_denied_message: You do not have permission to do that.
-      rate_limit_exceeded_message: You're going a little too quickly. Please try again in a few seconds.
-      render_failed_message: Sorry, we encountered an error while displaying this content. If you're a user, please try again later. If you're an administrator, take a look in your Flarum log files for more information.
+      dependent_extensions_message: "無法停用 {extension}，直到以下相依性延伸停用：{extensions}"
+      extension_initialiation_failed_message: "{extension} 初始化失敗，請檢查瀏覽器控制台以取得進一步資訊。"
+      generic_message: "哎呀！出了些問題。請重新載入頁面，然後再試一次。"
+      missing_dependencies_message: "無法啟用 {extension}，直到以下相依性啟用：{extensions}"
+      not_found_message: 找不到請求的資源。
+      payload_too_large_message: 請求有效載荷太大。
+      permission_denied_message: 您沒有執行該操作的權限。
+      rate_limit_exceeded_message: 您的操作速度有點快，請稍等幾秒再試。
+      render_failed_message: 很抱歉，顯示此內容時發生錯誤。如果您是用戶，請稍後再試。如果您是管理員，請查看您的Flarum日誌文件以獲取更多信息。
 
     # These translations are used in the loading indicator component.
     loading_indicator:
@@ -563,58 +569,58 @@ core:
 
     # Translations in this namespace are used to format page meta titles.
     meta_titles:
-      with_page_title: "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Page # - {forumName}}}"
-      without_page_title: "{pageNumber, plural, =1 {{forumName}} other {Page # - {forumName}}}"
+      with_page_title: "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}：第 {pageNumber} 頁 - {forumName}}}"
+      without_page_title: "{pageNumber, plural, =1 {{forumName}} other {第 {pageNumber} 頁 - {forumName}}}"
 
     # These translations are used in modals.
     modal:
-      close: Close
+      close: 關閉
 
     # These translations are used in the navigation header.
     nav:
-      drawer_button: Open Navigation Drawer
+      drawer_button: 開啟導覽列
 
     # These translations are used as suffixes when abbreviating numbers.
     number_suffix:
-      kilo_text: K
-      mega_text: M
+      kilo_text: 千
+      mega_text: 百萬
 
     # These translations are used to punctuate a series of items.
     series:
-      glue_text: ", "
-      three_text: "{first}, {second}, and {third}"
-      two_text: "{first} and {second}"
+      glue_text: "、"
+      three_text: "{first}、{second}，和 {third}"
+      two_text: "{first} 和 {second}"
 
     # These translations are used to modify usernames.
     username:
-      deleted_text: "[deleted]"
+      deleted_text: "[已刪除]"
 
   # Translations in this namespace are used in views other than Flarum's normal JS client.
   views:
     # Translations in this namespace are displayed by the basic HTML admin index.
     admin:
       extensions:
-        caption: => core.ref.extensions
-        disable: Disable
-        empty: No installed extensions
-        enable: Enable
-        name: Extension Name
-        package_name: Package Name
-        version: Version
+         caption: => core.ref.extensions
+         disable: 停用
+         empty: 沒有安裝任何擴充功能
+         enable: 啟用
+         name: 擴充功能名稱
+         package_name: 套件名稱
+         version: 版本
       info:
-        caption: Application Info
-      title: Administration
+         caption: 應用程式資訊
+      title: 管理員
 
     # Translations in this namespace are displayed by the Confirm Email interface.
     confirm_email:
       submit_button: => core.ref.confirm_email
-      text: Click the button below to confirm your account's email.
+      text: 點擊下方按鈕以確認您的帳戶電子郵件。
       title: => core.ref.confirm_email
 
     # Translations in this namespace are displayed by the basic HTML content loader.
     content:
-      javascript_disabled_message: This site is best viewed in a modern browser with JavaScript enabled.
-      load_error_message: Something went wrong while trying to load the full version of this site. Try hard-refreshing this page to fix the error.
+      javascript_disabled_message: 本站最佳瀏覽器為啟用 JavaScript 的現代瀏覽器。
+      load_error_message: 載入此網站的完整版本時發生問題。請嘗試強制重新整理此頁面以修復錯誤。
       loading_text: => core.ref.loading
 
     # Translations in this namespace are displayed in the basic HTML discussion view.
@@ -624,14 +630,14 @@ core:
 
     # Translations in this namespace are displayed when Flarum encounters an error.
     error:
-      csrf_token_mismatch: You have been inactive for too long.
-      csrf_token_mismatch_return_link: Go back, to try again
-      invalid_confirmation_token: This confirmation link has already been used or is invalid.
-      not_authenticated: You do not have permission to access this page. Try again after logging in.
-      not_found: The page you requested could not be found.
-      not_found_return_link: "Return to {forum}"
-      permission_denied: You do not have permission to access this page.
-      unknown: An error occurred while trying to load this page.
+      csrf_token_mismatch: 您已經太長時間沒有操作，請重新登入。
+      csrf_token_mismatch_return_link: 返回，重試一次
+      invalid_confirmation_token: 此確認鏈接已使用或無效。
+      not_authenticated: 您沒有權限訪問此頁面。請嘗試登錄後再試一次。
+      not_found: 找不到您所請求的頁面。
+      not_found_return_link: "返回 {forum}"
+      permission_denied: 您沒有權限訪問此頁面。
+      unknown: 在載入此頁面時發生錯誤。
 
     # Translations in this namespace are displayed by the basic HTML discussion index.
     index:
@@ -642,72 +648,74 @@ core:
     # Translations in this namespace are displayed by the Log Out confirmation interface.
     log_out:
       log_out_button: => core.ref.log_out
-      log_out_confirmation: "Are you sure you want to log out of {forum}?"
+      log_out_confirmation: "您確定要登出 {forum} 嗎？"
       title: => core.ref.log_out
 
     # Translations in this namespace are displayed by the Reset Password interface.
     reset_password:
-      confirm_password_label: Confirm New Password
-      new_password_label: New Password
+      confirm_password_label: 確認新密碼
+      new_password_label: 新密碼
       submit_button: => core.ref.save_changes
       title: => core.ref.reset_your_password
 
   # Translations in this namespace are used in messages output by the API.
   api:
-    invalid_username_message: "The username may only contain letters, numbers, and dashes."
+    invalid_username_message: "使用者名稱只能包含字母、數字和破折號。"
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
+
     # These translations are used in emails sent when users register new accounts.
     activate_account:
-      subject: Activate Your New Account
+      subject: 啟用您的新帳戶
       body: |
-        Hey {username}!
+        嗨，{username}！
 
-        Someone (hopefully you!) has signed up to {forum} with this email address.
+        有人（希望是您！）使用此電子郵件地址註冊了 {forum}。
 
-        If this was you, simply click the following link and your account will be activated:
+        如果這是您本人，只需點擊以下鏈接，您的帳戶將啟用：
         {url}
 
-        If you did not sign up, please ignore this email.
+        如果這不是您本人註冊，請忽略此電子郵件。
 
     # These translations are used in emails sent when users change their email address.
     confirm_email:
-      subject: Confirm Your New Email Address
+      subject: 確認您的新電子郵件地址
       body: |
-        Hey {username}!
+        嗨，{username}！
 
-        Someone (hopefully you!) has changed their email address on {forum} to this one.
+        有人（希望是您！）在 {forum} 更改了他們的電子郵件地址為此電子郵件地址。
 
-        If this was you, simply click the following link and your email will be confirmed:
+        如果這是您本人，只需點擊以下鏈接，您的電子郵件地址將被確認：
         {url}
 
-        If this was not you, please ignore this email.
+        如果這不是您本人更改電子郵件地址，請忽略此電子郵件。
 
     # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
       subject: => core.ref.reset_your_password
       body: |
-        Hey {username}!
-
-        Someone (hopefully you!) has submitted a forgotten password request for your account on {forum}.
-
-        If this was you, click the following link to reset your password:
+        嗨，{username}！
+    
+        有人（希望是您！）提交了忘記密碼的請求，以重設您在 {forum} 上的帳戶密碼。
+    
+        如果這是您本人，只需點擊以下鏈接以重設您的密碼：
         {url}
-
-        If you do not wish to change your password, just ignore this email and nothing will happen.
+    
+        如果您不希望更改密碼，只需忽略此電子郵件，什麼也不會發生。
 
     # These translations are used when testing mailing configuration
     send_test:
-      subject: Flarum Email Test
+      subject: Flarum 電子郵件測試
       body: |
-        Hey {username}!
+        嗨，{username}！
 
-        This is a test email to confirm that your Flarum email configuration is working properly.
+        這是一封測試郵件，以確認您的 Flarum 電子郵件配置正常運作。
 
-        If this was you, this email means that your configuration works!
+        如果這是您所發送的測試郵件，那麼這封郵件意味著您的配置正常運作！
 
-        If this was not you, please ignore this email.
+        如果這不是您所發送的測試郵件，請忽略此郵件。
+
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -715,52 +723,52 @@ core:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    all_discussions: All Discussions
-    change_email: Change Email
-    change_password: Change Password
-    color: Color # Referenced by flarum-tags.yml
-    confirm_password: Confirm Password
-    confirm_email: Confirm Email
-    confirmation_email_sent: "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
-    custom_footer_text: Add HTML to be displayed at the very bottom of the page.
-    custom_footer_title: Edit Custom Footer
-    custom_header_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
-    custom_header_title: Edit Custom Header
-    delete: Delete
-    delete_forever: Delete Forever
-    discussions: Discussions # Referenced by flarum-statistics.yml
-    edit: Edit
-    edit_user: Edit User
-    email: Email
-    extensions: Extensions
-    icon: Icon
-    icon_text: "Enter the name of any <a>FontAwesome</a> icon class, <em>including</em> the <code>fas fa-</code> prefix."
-    load_more: Load More
-    loading: Loading...
-    log_in: Log In
-    log_out: Log Out
-    mark_all_as_read: Mark All as Read
-    next_page: Next Page
-    notifications: Notifications
-    okay: OK # Referenced by flarum-tags.yml
-    password: Password
-    posts: Posts # Referenced by flarum-statistics.yml
-    previous_page: Previous Page
-    remove: Remove
-    rename: Rename
-    reply: Reply # Referenced by flarum-mentions.yml
-    reset_your_password: Reset Your Password
-    restore: Restore
-    save_changes: Save Changes # Referenced by flarum-suspend.yml, flarum-tags.yml
-    settings: Settings
-    sign_up: Sign Up
-    some_others: "{count, plural, one {# other} other {# others}}" # Referenced by flarum-likes.yml, flarum-mentions.yml
-    start_a_discussion: Start a Discussion
-    username: Username
-    users: Users # Referenced by flarum-statistics.yml
-    view: View
-    write_a_reply: Write a Reply...
-    you: You # Referenced by flarum-likes.yml, flarum-mentions.yml
+    all_discussions: 所有討論
+    change_email: 更改電子郵件
+    change_password: 更改密碼
+    color: 顏色
+    confirm_password: 確認密碼
+    confirm_email: 確認電子郵件
+    confirmation_email_sent: "我們已經向 {email} 發送了一封確認電子郵件。如果沒有收到，請檢查您的垃圾郵件文件夾。"
+    custom_footer_text: 添加 HTML 以顯示在頁面底部。
+    custom_footer_title: 編輯自定義頁腳
+    custom_header_text: "添加 HTML 以顯示在頁面頂部，位於 Flarum 自身標題之上。"
+    custom_header_title: 編輯自定義標題
+    delete: 刪除
+    delete_forever: 永久刪除
+    discussions: 討論
+    edit: 編輯
+    edit_user: 編輯用戶
+    email: 電子郵件
+    extensions: 擴展
+    icon: 圖標
+    icon_text: "輸入任何 <a>FontAwesome</a> 圖標類，<em>包括</em> <code>fas fa-</code> 前綴。"
+    load_more: 載入更多
+    loading: 載入中...
+    log_in: 登入
+    log_out: 登出
+    mark_all_as_read: 標記全部已讀
+    next_page: 下一頁
+    notifications: 通知
+    okay: 確定
+    password: 密碼
+    posts: 文章
+    previous_page: 上一頁
+    remove: 移除
+    rename: 重命名
+    reply: 回覆
+    reset_your_password: 重設您的密碼
+    restore: 恢復
+    save_changes: 保存更改
+    settings: 設置
+    sign_up: 註冊
+    some_others: "{count, plural, one {# 個其他人} other {# 個其他人}}" 
+    start_a_discussion: 發起討論
+    username: 用戶名
+    users: 用戶
+    view: 查看
+    write_a_reply: 撰寫回覆...
+    you: 您
 
   ##
   # GROUP NAMES - These keys are translated at the back end.
@@ -768,11 +776,11 @@ core:
 
   # Translations in this namespace are used to translate default group names.
   group:
-    admin: Admin
-    admins: Admins
-    guest: Guest
-    guests: Guests
-    member: Member
-    members: Members
-    mod: Mod
-    mods: Mods
+    admin: 管理員
+    admins: 管理員
+    guest: 訪客
+    guests: 訪客
+    member: 會員
+    members: 會員
+    mod: 版主
+    mods: 版主
